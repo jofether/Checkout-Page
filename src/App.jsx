@@ -20,18 +20,14 @@ function App() {
   const cartTotal = cart.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    // [BUG - TYPO] 'min-h-scren' is misspelled (missing 'e'), causing height issues
-    // [FIX] <div className="min-h-screen bg-gray-50 font-sans text-gray-900">
-    <div className="min-h-scren bg-gray-50 font-sans text-gray-900">
+    <div className="min-h-screen bg-gray-50 font-sans text-gray-900">
       
       <Header cartCount={cart.length} />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h1 className="text-3xl font-bold mb-8">Checkout</h1>
 
-        {/* [BUG - LAYOUT] 'lg:flex-col' stacks elements vertically on desktop, breaking the side-by-side design */}
-        {/* [FIX] <div className="flex flex-col lg:flex-row gap-8 items-start"> */}
-        <div className="flex flex-col lg:flex-col gap-8 items-start">
+        <div className="flex flex-col lg:flex-row gap-8 items-start">
           
           {/* Left Column: Form & Products */}
           <div className="flex-1 w-full space-y-8">
