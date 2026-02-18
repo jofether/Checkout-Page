@@ -1,5 +1,4 @@
 import React from 'react';
-import { Plus } from 'lucide-react';
 
 
 export function ProductCard({ product, onAdd }) {
@@ -32,7 +31,7 @@ export function ProductCard({ product, onAdd }) {
             onClick={onAdd}
             className="flex items-center gap-1 bg-gray-900 text-white px-3 py-2 rounded-lg hover:bg-gray-800 transition-colors text-sm"
           >
-            <Plus size={16} /> Add
+            ➕ Add
           </button>
         </div>
       </div>

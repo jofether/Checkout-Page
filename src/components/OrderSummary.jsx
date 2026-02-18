@@ -1,6 +1,5 @@
 import React from 'react';
 import { CartItem } from './CartItem';
-import { CreditCard } from 'lucide-react';
 
 
 export function OrderSummary({ cart, total, onRemove }) {
@@ -39,8 +38,7 @@ export function OrderSummary({ cart, total, onRemove }) {
 
 
         <button className="w-full bg-blue-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-blue-700 shadow-lg shadow-blue-200 transition-all flex justify-center items-center gap-2">
-          <CreditCard size={20} />
-          Pay Now
+          💳 Pay Now
         </button>
       </div>
     </div>

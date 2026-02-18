@@ -1,5 +1,4 @@
 import React from 'react';
-import { Trash2 } from 'lucide-react';
 
 
 export function CartItem({ item, onRemove }) {
@@ -23,7 +22,7 @@ export function CartItem({ item, onRemove }) {
         // [FIX] text-gray-400 hover:text-red-500
         className="fixed top-0 left-0 p-2 text-white hover:bg-red-50 rounded-full transition-colors"
       >
-        <Trash2 size={18} />
+        🗑️
       </button>
     </div>
   );

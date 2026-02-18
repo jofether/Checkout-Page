@@ -1,5 +1,4 @@
 import React from 'react';
-import { ShoppingBag } from 'lucide-react';
 
 
 export function Header({ cartCount }) {
@@ -10,8 +9,8 @@ export function Header({ cartCount }) {
      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="bg-blue-600 p-2 rounded-lg">
-            <ShoppingBag className="w-6 h-6 text-white" />
+          <div className="bg-blue-600 p-2 rounded-lg text-xl">
+            🛍️
           </div>
           <span className="text-xl font-bold tracking-tight">ShopUI</span>
         </div>
@@ -26,8 +25,8 @@ export function Header({ cartCount }) {
         </nav>
 
 
-        <div className="relative p-2">
-          <ShoppingBag className="w-6 h-6 text-gray-600" />
+        <div className="relative p-2 text-xl">
+          🛍️
           {cartCount > 0 && (
             <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
               {cartCount}
