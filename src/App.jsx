@@ -24,8 +24,6 @@ function App() {
 
 
   return (
-    // [BUG - TYPO] 'min-h-scren' is misspelled (missing 'e'), causing height issues
-    // [FIX] <div className="min-h-screen bg-gray-50 font-sans text-gray-900">
     <div className="min-h-scren bg-gray-50 font-sans text-gray-900">
      
       <Header cartCount={cart.length} />
@@ -35,8 +33,6 @@ function App() {
         <h1 className="text-3xl font-bold mb-8">Checkout</h1>
 
 
-        {/* [BUG - LAYOUT] 'lg:flex-col' stacks elements vertically on desktop, breaking the side-by-side design */}
-        {/* [FIX] <div className="flex flex-col lg:flex-row gap-8 items-start"> */}
         <div className="flex flex-col lg:flex-col gap-8 items-start">
          
           {/* Left Column: Form & Products */}

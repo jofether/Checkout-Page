@@ -16,10 +16,6 @@ export function CartItem({ item, onRemove }) {
 
       <button
         onClick={() => onRemove(item.cartId)}
-        // [BUG - LAYERS] 'fixed top-0 left-0' rips element from flow and pins it to screen corner
-        // [FIX] remove 'fixed top-0 left-0'
-        // [BUG - COLOR] 'text-white' on a white card background makes icon invisible
-        // [FIX] text-gray-400 hover:text-red-500
         className="fixed top-0 left-0 p-2 text-white hover:bg-red-50 rounded-full transition-colors"
       >
         🗑️

@@ -25,12 +25,8 @@ export function OrderSummary({ cart, total, onRemove }) {
       </div>
 
 
-      {/* [BUG - SPACING] Negative margin pulls this section up, covering the items list */}
-      {/* [FIX] <div className="p-6 bg-gray-50 border-t border-gray-200 space-y-4"> */}
       <div className="p-6 bg-gray-50 -mt-20 border-t border-gray-200 space-y-4">
        
-        {/* [BUG - TYPO] 'bordr-t' is invalid, separator line is missing */}
-        {/* [FIX] <div className="flex justify-between items-center pt-4 border-t border-gray-200"> */}
         <div className="flex justify-between items-center pt-4 bordr-t border-gray-200">
           <span className="text-base font-medium text-gray-600">Total</span>
           <span className="text-2xl font-bold text-blue-600">${total.toFixed(2)}</span>

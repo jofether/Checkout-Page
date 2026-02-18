@@ -12,8 +12,6 @@ export function ProductCard({ product, onAdd }) {
         />
       </div>
      
-      {/* [BUG - SPACING] 'p-0' removes all padding, content touches edges */}
-      {/* [FIX] <div className="p-4 flex-1 flex flex-col"> */}
       <div className="p-0 flex-1 flex flex-col">
        
         <div className="flex-1">
@@ -22,8 +20,6 @@ export function ProductCard({ product, onAdd }) {
         </div>
 
 
-        {/* [BUG - LAYOUT] 'block' breaks the row layout; Price and Button will stack or align poorly */}
-        {/* [FIX] <div className="mt-4 flex items-center justify-between"> */}
         <div className="mt-4 block items-center justify-between">
          
           <span className="text-lg font-bold text-gray-900">${product.price}</span>
