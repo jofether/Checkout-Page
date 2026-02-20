@@ -1,0 +1,155 @@
+{
+  "repository": "Checkout Page",
+  "bugs": [
+    {
+      "bug_category": "Typo",
+      "bug_type": "min-h-screen",
+      "file_modified": "src/App.jsx",
+      "line_number": 26,
+      "clean_code": "<div className=\"min-h-screen bg-gray-50 font-sans text-gray-900\">",
+      "buggy_code": "<div className=\"min-h-scren bg-gray-50 font-sans text-gray-900\">",
+      "css_selector": "min-h-screen",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/App.jsx",
+      "line_number": 35,
+      "clean_code": "<div className=\"flex flex-col lg:flex-row gap-8 items-start\">",
+      "buggy_code": "<div className=\"flex flex-col lg:flex-col gap-8 items-start\">",
+      "css_selector": "lg:flex-row",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "position",
+      "file_modified": "src/components/CartItem.jsx",
+      "line_number": 19,
+      "clean_code": "className=\"p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors\"",
+      "buggy_code": "className=\"fixed top-0 left-0 p-2 text-white hover:bg-red-50 rounded-full transition-colors\"",
+      "css_selector": "position-fixed",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 6,
+      "clean_code": "<header className=\"sticky top-0 bg-white border-b border-gray-200 z-50 shadow-sm\">",
+      "buggy_code": "<header className=\"sticky top-0 bg-white border-b border-gray-200 -z-50 shadow-sm\">",
+      "css_selector": "z-50",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 18,
+      "clean_code": "<a href=\"#\" className=\"text-gray-600 hover:text-blue-600 font-medium\">Home</a>",
+      "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">Home</a>",
+      "css_selector": "text-white",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 19,
+      "clean_code": "<a href=\"#\" className=\"text-gray-600 hover:text-blue-600 font-medium\">Products</a>",
+      "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">Products</a>",
+      "css_selector": "text-white",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 20,
+      "clean_code": "<a href=\"#\" className=\"text-gray-600 hover:text-blue-600 font-medium\">About</a>",
+      "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">About</a>",
+      "css_selector": "text-white",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "margin-top",
+      "file_modified": "src/components/OrderSummary.jsx",
+      "line_number": 27,
+      "clean_code": "<div className=\"p-6 bg-gray-50 border-t border-gray-200 space-y-4\">",
+      "buggy_code": "<div className=\"p-6 bg-gray-50 -mt-20 border-t border-gray-200 space-y-4\">",
+      "css_selector": "margin-top",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "border-t",
+      "file_modified": "src/components/OrderSummary.jsx",
+      "line_number": 29,
+      "clean_code": "<div className=\"flex justify-between items-center pt-4 border-t border-gray-200\">",
+      "buggy_code": "<div className=\"flex justify-between items-center pt-4 bordr-t border-gray-200\">",
+      "css_selector": "border-t",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/components/ProductCard.jsx",
+      "line_number": 15,
+      "clean_code": "<div className=\"p-4 flex-1 flex flex-col\">",
+      "buggy_code": "<div className=\"p-0 flex-1 flex flex-col\">",
+      "css_selector": "padding",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
