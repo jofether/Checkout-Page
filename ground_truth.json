@@ -2,6 +2,7 @@
   "repository": "Checkout Page",
   "bugs": [
     {
+      "comment": "Bug #1 - min-h-screen",
       "bug_category": "Typo",
       "bug_type": "min-h-screen",
       "file_modified": "src/App.jsx",
@@ -12,11 +13,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
+      "comment": "Bug #2 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/App.jsx",
@@ -27,11 +29,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
+      "comment": "Bug #3 - position",
       "bug_category": "Layers",
       "bug_type": "position",
       "file_modified": "src/components/CartItem.jsx",
@@ -42,11 +45,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
+      "comment": "Bug #4 - z-index",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/Header.jsx",
@@ -57,11 +61,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 65
       }
     },
     {
+      "comment": "Bug #5 - text-color (Home)",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/Header.jsx",
@@ -70,13 +75,14 @@
       "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">Home</a>",
       "css_selector": "text-white",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 576,
+        "y": 20,
+        "width": 44,
+        "height": 24
       }
     },
     {
+      "comment": "Bug #6 - text-color (Products)",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/Header.jsx",
@@ -85,13 +91,14 @@
       "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">Products</a>",
       "css_selector": "text-white",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 644,
+        "y": 20,
+        "width": 64,
+        "height": 24
       }
     },
     {
+      "comment": "Bug #7 - text-color (About)",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/Header.jsx",
@@ -100,13 +107,14 @@
       "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">About</a>",
       "css_selector": "text-white",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 732,
+        "y": 20,
+        "width": 45,
+        "height": 24
       }
     },
     {
+      "comment": "Bug #8 - margin-top",
       "bug_category": "Spacing",
       "bug_type": "margin-top",
       "file_modified": "src/components/OrderSummary.jsx",
@@ -115,13 +123,14 @@
       "buggy_code": "<div className=\"p-6 bg-gray-50 -mt-20 border-t border-gray-200 space-y-4\">",
       "css_selector": "margin-top",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 33,
+        "y": 530,
+        "width": 382,
+        "height": 173
       }
     },
     {
+      "comment": "Bug #9 - border-t",
       "bug_category": "Typo",
       "bug_type": "border-t",
       "file_modified": "src/components/OrderSummary.jsx",
@@ -130,13 +139,14 @@
       "buggy_code": "<div className=\"flex justify-between items-center pt-4 bordr-t border-gray-200\">",
       "css_selector": "border-t",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 57,
+        "y": 555,
+        "width": 334,
+        "height": 2
       }
     },
     {
+      "comment": "Bug #10 - padding",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/components/ProductCard.jsx",
@@ -145,10 +155,10 @@
       "buggy_code": "<div className=\"p-0 flex-1 flex flex-col\">",
       "css_selector": "padding",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 33,
+        "y": 120,
+        "width": 598,
+        "height": 132
       }
     }
   ]
