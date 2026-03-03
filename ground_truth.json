@@ -9,7 +9,7 @@
       "line_number": 26,
       "clean_code": "<div className=\"min-h-screen bg-gray-50 font-sans text-gray-900\">",
       "buggy_code": "<div className=\"min-h-scren bg-gray-50 font-sans text-gray-900\">",
-      "css_selector": "min-h-screen",
+      "css_selector": ".bg-gray-50.font-sans.text-gray-900",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -25,7 +25,7 @@
       "line_number": 35,
       "clean_code": "<div className=\"flex flex-col lg:flex-row gap-8 items-start\">",
       "buggy_code": "<div className=\"flex flex-col lg:flex-col gap-8 items-start\">",
-      "css_selector": "lg:flex-row",
+      "css_selector": ".flex.flex-col.gap-8.items-start",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -41,7 +41,7 @@
       "line_number": 19,
       "clean_code": "className=\"p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors\"",
       "buggy_code": "className=\"fixed top-0 left-0 p-2 text-white hover:bg-red-50 rounded-full transition-colors\"",
-      "css_selector": "position-fixed",
+      "css_selector": "button.p-2.rounded-full.transition-colors",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -57,7 +57,7 @@
       "line_number": 6,
       "clean_code": "<header className=\"sticky top-0 bg-white border-b border-gray-200 z-50 shadow-sm\">",
       "buggy_code": "<header className=\"sticky top-0 bg-white border-b border-gray-200 -z-50 shadow-sm\">",
-      "css_selector": "z-50",
+      "css_selector": "header.sticky.top-0",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -73,7 +73,7 @@
       "line_number": 18,
       "clean_code": "<a href=\"#\" className=\"text-gray-600 hover:text-blue-600 font-medium\">Home</a>",
       "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">Home</a>",
-      "css_selector": "text-white",
+      "css_selector": "a:has-text(\"Home\")",
       "bounding_box": {
         "x": 576,
         "y": 20,
@@ -89,7 +89,7 @@
       "line_number": 19,
       "clean_code": "<a href=\"#\" className=\"text-gray-600 hover:text-blue-600 font-medium\">Products</a>",
       "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">Products</a>",
-      "css_selector": "text-white",
+      "css_selector": "a:has-text(\"Products\")",
       "bounding_box": {
         "x": 644,
         "y": 20,
@@ -105,7 +105,7 @@
       "line_number": 20,
       "clean_code": "<a href=\"#\" className=\"text-gray-600 hover:text-blue-600 font-medium\">About</a>",
       "buggy_code": "<a href=\"#\" className=\"text-white hover:text-blue-600 font-medium\">About</a>",
-      "css_selector": "text-white",
+      "css_selector": "a:has-text(\"About\")",
       "bounding_box": {
         "x": 732,
         "y": 20,
@@ -121,12 +121,12 @@
       "line_number": 27,
       "clean_code": "<div className=\"p-6 bg-gray-50 border-t border-gray-200 space-y-4\">",
       "buggy_code": "<div className=\"p-6 bg-gray-50 -mt-20 border-t border-gray-200 space-y-4\">",
-      "css_selector": "margin-top",
+      "css_selector": ".bg-gray-50.border-t",
       "bounding_box": {
         "x": 33,
-        "y": 530,
+        "y": 430,
         "width": 382,
-        "height": 173
+        "height": 273
       }
     },
     {
@@ -137,12 +137,12 @@
       "line_number": 29,
       "clean_code": "<div className=\"flex justify-between items-center pt-4 border-t border-gray-200\">",
       "buggy_code": "<div className=\"flex justify-between items-center pt-4 bordr-t border-gray-200\">",
-      "css_selector": "border-t",
+      "css_selector": ".flex.justify-between.items-center.pt-4",
       "bounding_box": {
         "x": 57,
-        "y": 555,
+        "y": 525,
         "width": 334,
-        "height": 2
+        "height": 60
       }
     },
     {
@@ -153,7 +153,7 @@
       "line_number": 15,
       "clean_code": "<div className=\"p-4 flex-1 flex flex-col\">",
       "buggy_code": "<div className=\"p-0 flex-1 flex flex-col\">",
-      "css_selector": "padding",
+      "css_selector": ".flex-1.flex.flex-col",
       "bounding_box": {
         "x": 33,
         "y": 120,
