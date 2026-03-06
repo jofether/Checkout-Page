@@ -44,7 +44,7 @@
       "line_number": 19,
       "neg_code": "className=\"p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors\"",
       "pos_code": "className=\"fixed top-0 left-0 p-2 text-white hover:bg-red-50 rounded-full transition-colors\"",
-      "css_selector": "button.p-2.rounded-full.transition-colors",
+      "css_selector": "button.p-2",
       "bounding_box": {
         "x": 0,
         "y": 0,
